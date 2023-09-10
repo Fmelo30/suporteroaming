@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>Suporte roaming</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <div id="titulox">
+    </div>
+    </header>
+    <section>
+        <div>
+           <p> Foi aberto um chamado solicitando o serviço?</p>
+           
+           <p> <input type = "radio" name="sino" id="sim" >
+            <label for="yes"> Sim </label>
+            <input type = "radio" name="sino" id="não">
+            <label for = "no"> Não </label> </p>
+            <p>Selecione o modelo do aparelho : </p>
+            <input type="radio" name="radmod"  id="and" >
+            <label for="mds">Android</label>
+            <input type="radio" name="radmod"  id="iph">
+            <label for="mdn">Iphone</label>
+            </p>
+            <p><input type="button" id="bt" value="Enviar" onclick="verificar()"></p>
+            
+        </div>
+        
+        <div class="slider">
+          <!--Classe predominante-->
+         
+            <div class="slides">
+                <!--Radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">    
+                <input type="radio" name="radio-btn" id="radio3">    
+                <input type="radio" name="radio-btn" id="radio4">    
+                <input type="radio" name="radio-btn" id="radio5">        
+                
+            <!--div imagens-->
+            <div class="slide first">
+            <img src="and1.webp" alt="passo1"/>
+            </div>
+        
+            <div class="slide">
+                <img src="and2.webp" alt="passo2"/>
+            </div>
+            <div class="slide">
+            <img src="and3.webp" alt="passo3"/>
+            </div>
+            <div class="slide">
+            <img src="and4.webp" alt="passo4"/>
+        </div>
+            <div class="slide">
+            <img src="and5.webp" alt="passo5"/>
+        </div>
+        
+          
+            <div class="navigation-auto">
+                <div class="btna1"></div>
+                <div class="btna2"></div>
+                <div class="btna3"></div>
+                <div class="btna4"></div>
+                <div class="btna5"></div>
+            </div>
+
+            </div>
+
+            <div class="navmanualand">
+            <label for="radio1"  class="mbtn"></label>
+            <label for="radio2"  class="mbtn"></label>
+            <label for="radio3"  class="mbtn"></label>
+            <label for="radio4"  class="mbtn"></label>
+            <label for="radio5"  class="mbtn"></label>
+        </div>
+        
+        </div>
+    <!--Slide para Iphone-->
+        <div class="iphone">
+            <div class="slidesi">
+                <!--Radio buttons-->
+                <input type="radio" name="radio-btni" id="radioi1">
+                <input type="radio" name="radio-btni" id="radioi2">    
+                <input type="radio" name="radio-btni" id="radioi3">    
+                <input type="radio" name="radio-btni" id="radioi4">    
+                <input type="radio" name="radio-btni" id="radioi5">        
+        
+            <!--div imagens-->
+            <div class="slide firsti">
+            <img src="iph1.webp" alt="passo1"/>
+            </div>
+            <div class="slidei">
+                <img src="iph2.webp" alt="passo2"/>
+            </div>
+            <div class="slidei">
+            <img src="iph3.webp" alt="passo3"/>
+            </div>
+            <div class="slidei">
+            <img src="iph4.webp" alt="passo4"/>
+        </div>
+            <div class="slidei">
+            <img src="iph5.webp" alt="passo5"/>
+        </div>
+
+
+            <div class="navigation-autoi">
+                <div class="btni1"></div>
+                <div class="btni2"></div>
+                <div class="btni3"></div>
+                <div class="btni4"></div>
+                <div class="btni5"></div>
+            </div>
+
+            </div>
+
+            <div class="navmanualandi">
+            <label for="radioi1"  class="mbtni"></label>
+            <label for="radioi2"  class="mbtni"></label>
+            <label for="radioi3"  class="mbtni"></label>
+            <label for="radioi4"  class="mbtni"></label>
+            <label for="radioi5"  class="mbtni"></label>
+        </div>
+    </section>
+    <script src="scriptsis.js" defer></script>
+    
+</body>
+</html>

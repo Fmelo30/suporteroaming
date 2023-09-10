@@ -1,0 +1,14 @@
+body{
+    background:  rgba(206, 206, 211, 0.699);
+    font: normal 15pt Arial;
+    text-align: center;
+    }
+    section{
+        background: white;
+        font-style: Arial;
+        border-radius: 15px;
+        padding: 15px;
+        width: 500px;
+        margin: 200px auto;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.781);
+        }
