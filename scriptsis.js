@@ -1,24 +1,3 @@
-const sup = document.getElementById('titulox');
-const titulo = "Suporte Roaming";
-const intervalo = 300;
-
-function showText(sup, titulo, intervalo) {
-    const char = titulo.split('').reverse();
-
-    const typer = setInterval(() => {
-        // inserir a letra no HTML pop irá retirar a última letra 
-        if(!char.length){
-            return clearInterval(typer)
-        }
-        const next = char.pop();
-        sup.innerHTML += next;
-    }, intervalo);
-}
-
-showText(sup, titulo, intervalo);
-
-    
-
 function verificar() {
   let cha = document.getElementsByName('sino')
     let mod = document.getElementsByName('radmod')
