@@ -1,3 +1,24 @@
+const el = document.querySelector("#titulox");
+const titulo = "SUPORTE ROAMING INTERNACIONAL";
+const interval = 180;
+
+function showText(el, titulo, interval){
+
+    const char = titulo.split("").reverse();
+
+    const typer = setInterval(() => {
+        if(!char.length){
+            return clearInterval(typer);
+        }
+        const next = char.pop();
+
+        el.innerHTML += next;
+    },interval);
+
+}
+
+showText(el, titulo,interval); // el = apresenta a div, titulo = apresenta a frase, interval = define o intervalo que passará cada letra
+
 function verificar() {
   let cha = document.getElementsByName('sino')
     let mod = document.getElementsByName('radmod')
