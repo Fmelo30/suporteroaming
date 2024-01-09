@@ -5,7 +5,7 @@ body{
 text-align: center;
     }
 section{
-    background: rgba(230, 220, 220, 0.938);
+    background: #FFFF;
     font-family: 'Roboto Slab', serif;
     font-size: 16pt;
     border-radius: 15px;
