@@ -26,10 +26,10 @@ function verificar() {
     let imgf = document.querySelector('.iphone')
 
     // checa se foi selecionado o radio "não", se sim irá encaminhar a outra página
-    if(cha[1].checked){
-        window.confirm('Abra um chamado solcitando o serviço em: 0800 880 7447 ou no site a seguir')
-        window.location.href='https://bunge.service-now.com/selfservice_bbr'
-    }
+   //if(cha[1].checked){
+     //   window.confirm('Abra um chamado solcitando o serviço em: 0800 880 7447 ou no site a seguir')
+       // window.location.href='https://bunge.service-now.com/selfservice_bbr'
+  //  }
     // checa se foi selcionado sim e o modelo qual foi selecionado
     // as imagens permancem como "none" até o botão ser acionao e o parametros estiverem certos, após isso se tornam "block e aparecem"
 if(cha[0].checked && mod[0].checked && imga.style.display === "none"){      
